@@ -8,25 +8,53 @@
     <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="javascript/batman.js"></script>
     <script src="javascript/slide.js"></script>
+    <script src="javascript/jquery.js"></script>
     <script type="text/javascript">
+    </script>
+    <script>
+      $(document).ready(function(){
+        $(".fade").fadeIn(3000);
+      });
+
     </script>
   </head>
   <body ng-app="aMod" ng-controller="aController">
-    <div id="nav">
+    <div id="nav" class="fade">
       <img id="logo" src="images/logo.png"/>
-      <p id="welcome">This is some text</p>
+      <p id="welcome" class="fade">This is some text</p>
     </div>
     <div id="buttons">
-      <a href="#/" class="atag">Home</a>
-      <a href="#/aboutview" class="atag">About</a>
-      <a href="#" class="atag">Contact</a>
+      <a href="#/" class="atag">HOME</a>
+      <a href="#/aboutview" id="atag2" class="atag">ABOUT</a>
+      <a href="#" id="atag3" class="atag">CONTACT</a>
+    </div>
+    <div id="mediahead">
+      <div id="twitter2"></div>
+      <div id="github2"></div>
+      <div id="facebook2"></div>
+      <div id="reddit2"></div>
+      <div id="skype2"></div>
     </div>
     <div ng-view="">
     </div>
+    <footer id="FOOT">
+      <img src="images/logo.png" id="footlogo"/>
+      <p id="email">eightpears@gmail.com</p>
+      <div id="icontainer">
+        <div id="twitter"></div>
+        <div id="github"></div>
+        <div id="facebook"></div>
+        <div id="reddit"></div>
+        <div id="skype"></div>
+      </div>
+      <p id="copyright">© 2015 Nick Malinasky. I made this site. Thanks for design inspo, airbnb.</p>
+    </footer>
   </body>
 </html>

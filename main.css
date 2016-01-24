@@ -18,7 +18,7 @@ html, body {
   padding: 0px;
   overflow-x: hidden;
   overflow-y: hidden;
-  font-family: 'Arvo', serif;
+  font-family: 'Bitter', serif;
 }
 
 #logo {
@@ -45,15 +45,15 @@ ul {
   display: inline-block;
   color: black;
   /*text-shadow: 1px 1px white;*/
-  font-size: 20px;
+  font-size: 18px;
   background-color: rgba(255, 252, 255, 0.5);
   margin-left: 90px;
-  border-radius: 7px;
-  width: 100px;
-  height: 20px;
-  padding-top: 12px;
-  padding-bottom: 16px;
-  font-family: 'Arvo', serif;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 37px;
+  padding-right: 37px;
+  font-family: 'Bitter', serif;
   font-weight: bold;
   -o-transition:color .15s ease-out, background .15s ease-in;
   -ms-transition:color .15s ease-out, background .15s ease-in;
@@ -65,22 +65,32 @@ ul {
   border: 3px solid black;
   display: inline-block;
   color: black;
-  font-size: 23px;
+  font-size: 18px;
   background-color: rgba(255, 252, 255, 0.5);
-  font-family: 'Arvo', serif;
+  font-family: 'Bitter', serif;
   font-weight: bold;
   margin-left: 72px;
   margin-right: 72px;
   margin-top: 30px;
-  border-radius: 7px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 7px;
-  padding-right: 7px;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 23px;
+  padding-right: 23px;
   -o-transition:color .15s ease-out, background .15s ease-in;
   -ms-transition:color .15s ease-out, background .15s ease-in;
   -moz-transition:color .15s ease-out, background .15s ease-in;
   -webkit-transition:color .15s ease-out, background .15s ease-in;
+}
+
+#atag2 {
+  padding-left: 33.4px;
+  padding-right: 33.4px;
+}
+
+#atag3 {
+  padding-left: 21px;
+  padding-right: 21px;
 }
 
 #buttons {
@@ -123,6 +133,14 @@ a:link {
   font-weight: bold;
 }
 
+.intro2 {
+  font-family: Bentham;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 150px;
+}
+
 #introbody {
   width: 40%;
   margin: 0 auto;
@@ -139,8 +157,8 @@ a:link {
   height: 295px;
 }
 
-hr {
-  width: 50%;
+.homehr {
+  width: 55%;
 }
 
 #linksinfohead {
@@ -162,16 +180,55 @@ hr {
 #logo2 {
   width: 125px;
   height: 125px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+#logo3 {
+  width: 220px;
+  height: 220px;
   /*margin-top: */
 }
 
 #texthold {
   display: inline-block;
-  width: 70%;
+  width: 60%;
   margin-left: 110px;
-  margin-bottom: 50px;
-  font-size: 17.5px;
+  margin-bottom: 20px;
+  font-size: 19.5px;
+  font-family: bentham;
+}
+
+#texthold2 {
+  display: inline-block;
+  width: 60%;
+  margin-left: 110px;
+  margin-bottom: 170px;
+  margin-top: 0px;
+  font-size: 21px;
   font-family: Alegreya;
+}
+
+em {
+  font-family: 'Passion One', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  color: #3D3D3D;
+  text-shadow: 1px 1px white;
+}
+
+#newhr {
+  width: 65%;
+}
+
+.abouthr {
+  border: none;
+  width: 45%;
+  height: 5px;
+  color: #3D3D3D;
+  background-color: #3D3D3D;
+  margin-bottom: 0px;
+
 }
 
 #picholder {
@@ -313,11 +370,11 @@ hr {
 /* FOOT STUFF */
 #FOOT {
   width: 100%;
-  height: 350px;
+  height: 300px;
   background-color: #3D3D3D;
   margin-top: 150px;
   text-align: center;
-  font-family: 'Arvo', serif;
+  font-family: 'Bitter', serif;
   font-size: 20px;
   color: #C1C1C1;
 }
@@ -325,12 +382,85 @@ hr {
 #footlogo {
   width: 75px;
   height: 75px;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 #icontainer {
   margin: 0 auto;
 }
+
+#mediahead {
+  margin-right: 20px;
+  position: absolute;
+  right: 0px;
+  top: 40px;
+}
+
+#twitter2 {
+  width: 65px;
+  height: 65px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-image: url('images/icons/twitter2.png');
+  display: inline-block;
+  -o-transition:color .125s ease-out, background-image .125s ease-in;
+  -ms-transition:color .125s ease-out, background-image .125s ease-in;
+  -moz-transition:color .125s ease-out, background-image .125s ease-in;
+  -webkit-transition:color .125s ease-out, background-image .125s ease-in;
+}
+
+#github2 {
+  width: 65px;
+  height: 65px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-image: url('images/icons/github2.png');
+  display: inline-block;
+  -o-transition:color .125s ease-out, background-image .125s ease-in;
+  -ms-transition:color .125s ease-out, background-image .125s ease-in;
+  -moz-transition:color .125s ease-out, background-image .125s ease-in;
+  -webkit-transition:color .125s ease-out, background-image .125s ease-in;
+}
+
+#facebook2 {
+  width: 65px;
+  height: 65px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-image: url('images/icons/facebook2.png');
+  display: inline-block;
+  -o-transition:color .125s ease-out, background-image .125s ease-in;
+  -ms-transition:color .125s ease-out, background-image .125s ease-in;
+  -moz-transition:color .125s ease-out, background-image .125s ease-in;
+  -webkit-transition:color .125s ease-out, background-image .125s ease-in;
+}
+
+#reddit2 {
+  width: 65px;
+  height: 65px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-image: url('images/icons/reddit2.png');
+  display: inline-block;
+  -o-transition:color .125s ease-out, background-image .125s ease-in;
+  -ms-transition:color .125s ease-out, background-image .125s ease-in;
+  -moz-transition:color .125s ease-out, background-image .125s ease-in;
+  -webkit-transition:color .125s ease-out, background-image .125s ease-in;
+}
+
+#skype2 {
+  width: 65px;
+  height: 65px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-image: url('images/icons/skype2.png');
+  display: inline-block;
+  -o-transition:color .125s ease-out, background-image .125s ease-in;
+  -ms-transition:color .125s ease-out, background-image .125s ease-in;
+  -moz-transition:color .125s ease-out, background-image .125s ease-in;
+  -webkit-transition:color .125s ease-out, background-image .125s ease-in;
+}
+
 
 #twitter {
   width: 35px;
@@ -399,7 +529,7 @@ hr {
 
 #copyright {
   font-size: 12px;
-  font-family: 'Arvo', serif;
+  font-family: 'Bitter', serif;
   color: #C1C1C1;
   margin-top: 40px;
 }
@@ -422,4 +552,24 @@ hr {
 
 #skype:hover {
   background-image:url('images/icons/hover/skypehover.png' );
+}
+
+#twitter2:hover {
+  background-image:url('images/icons/hover/twitterhover2.png');
+}
+
+#github2:hover {
+  background-image:url('images/icons/hover/githubhover2.png');
+}
+
+#facebook2:hover {
+  background-image:url('images/icons/hover/facebookhover2.png');
+}
+
+#reddit2:hover {
+  background-image:url('images/icons/hover/reddithover2.png');
+}
+
+#skype2:hover {
+  background-image:url('images/icons/hover/skypehover2.png' );
 }
