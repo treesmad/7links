@@ -50,54 +50,210 @@ html, body {
 }
 
 #resume {
-  width: 70%;
+  width: 100%;
+}
+
+#skillscontain {
+  width: 80%;
   margin: 0 auto;
+  text-align: center;
 }
 
-#uggulu {
-  padding-left: 220px;
-  color: #3D3D3D;
-}
-
-#ugrugulu {
-  padding-left: 140px;
-  color: #3D3D3D;
-}
-
-
-#column1 {
+#leftcolumn {
+  width: 30%;
   display: inline-block;
-  font-family: 'Bitter', serif;
-  font-size: 20px;
-  width: 35%;
-  height: 350px;
-  border-top: 1px solid black;
-  margin-top: 75px;
-  margin-left: 95px;
+  margin: 0 auto;
+  margin-top: 103px;
+  border-top: 3px solid black;
 }
 
-#column2 {
+#centercolumn {
+  width: 165px;
   display: inline-block;
-  font-family: 'Bitter', serif;
-  font-size: 20px;
-  width: 35%;
-  height: 350px;
-  border-top: 1px solid black;
-}
-
-#listhead {
-  padding-left: 170px;
-  padding-top: 60px;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 50px;
+  font-family: Bentham;
   font-weight: bold;
-  font-size: 22px;
+  margin-top: 75px;
+}
+
+
+#rightcolumn {
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 103px;
+  border-top: 3px solid black;
+}
+
+#leftcolumn2 {
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 143px;
+  border-top: 3px solid black;
+}
+
+#centercolumn2 {
+  width: 195px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: Bentham;
+  font-weight: bold;
+  margin-top: 75px;
+}
+
+
+#rightcolumn2 {
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 143px;
+  border-top: 3px solid black;
+}
+
+#leftcolumn3 {
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 133px;
+  border-top: 3px solid black;
+}
+
+#centercolumn3 {
+  width: 230px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: Bentham;
+  font-weight: bold;
+  margin-top: 105px;
+}
+
+
+#rightcolumn3 {
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 133px;
+  border-top: 3px solid black;
+}
+
+#skillsinfo {
+  width: 55%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#listhead1 {
+  width: 40%;
+  display: inline-block;
+  padding: 20px;
+  padding-bottom: 0px;
+  font-family: Bentham;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 40px;
 }
 
 #listhead2 {
-  padding-left: 95px;
-  padding-top: 60px;
+  width: 40%;
+  display: inline-block;
+  padding: 20px;
+  padding-bottom: 0px;
+  font-family: Bentham;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 25px;
+  margin-left: 40px;
 }
+
+.skillslists {
+  display: inline-block;;
+  text-align: left;
+  font-family: bitter;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #424242;
+}
+
+#list1 {
+  display: inline-block;
+  width: 40%;
+  padding: 20px;
+  padding-top: 0px;
+  margin-right: 40px;
+}
+
+#list2 {
+  display: inline-block;
+  width: 40%;
+  padding: 20px;
+  padding-top: 0px;
+  margin-left: 40px;
+}
+
+#experience-box {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#company-name {
+  width: 25%;
+  height: 50px;
+  margin-left: 225px;
+  font-family: Bentham;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#job-description {
+  width: 60%;
+  height: 110px;
+  margin: 0 auto;
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+#resumehr {
+  width: 75%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+#education-box {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#school-name {
+  width: 45%;
+  height: 50px;
+  margin-left: 225px;
+  font-family: Bentham;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#school-description {
+  width: 60%;
+  height: 110px;
+  margin: 0 auto;
+  margin-top: -20px;
+  font-size: 20px;
+}
+
 
 #logo {
   height: 125px;
