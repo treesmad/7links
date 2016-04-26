@@ -575,19 +575,19 @@ em {
 
 #divception {
   margin: 0 auto;
-  width: 65%;
+  width: 100%;
   text-align: center;
   margin-top: 50px;
 }
 
 .projtexthold {
-  width: 65%;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
 }
 
 .buttonhold {
-  width: 75%;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
 }
