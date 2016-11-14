@@ -12,4 +12,8 @@ app.config(function($routeProvider){
     templateUrl: 'views/aboutview.html',
     controller: 'aController'
   });
+  $routeProvider.when('/contactview', {
+    templateUrl: 'views/contactview.html',
+    controller: 'aController'
+  });
 })

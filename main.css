@@ -14,11 +14,18 @@ html, body {
   background-image: url('images/temp6.jpg');
   height: 625px;
   text-align: center;
-  margin: 0px;
+  margin: 0 auto;
   padding: 0px;
   overflow-x: hidden;
   overflow-y: hidden;
   font-family: 'Bitter', serif;
+}
+
+#bgvideo {
+  min-width: 100%;
+  min-height: 625px;
+  width: auto;
+  height: auto;
 }
 
 #nav2 {
@@ -256,6 +263,7 @@ html, body {
 
 
 #logo {
+  display: none;
   height: 125px;
   width: 125px;
   position: absolute;
@@ -266,10 +274,15 @@ html, body {
 
 
 #welcome {
+  display: none;
   font-size: 100px;
   color: black;
-  padding-top: 50px;
   text-shadow: 2px 2px white;
+  position: absolute;
+  top: 150px;
+  right: 150px;
+  left: 150px;
+  margin: 0 auto;
 }
 
 #welcomed {
@@ -333,13 +346,13 @@ html, body {
 }
 
 #buttons {
+  display: none;
   margin-bottom: 0px;
   /*background-color: rgba(124, 124, 124, 0.6);*/
   position: absolute;
   width: 96.6%;
-  top: 300px;
+  top: 400px;
   text-align: center;
-
 
 }
 
@@ -401,6 +414,7 @@ a:link {
   width: 250px;
   height: 295px;
 }
+
 
 .homehr {
   width: 55%;
@@ -623,6 +637,8 @@ em {
   font-family: bentham;
   font-size: 22px;
   color: #C1C1C1;
+  padding-bottom: 60px;
+  padding-top: 30px;
 }
 
 .footnav {
@@ -676,6 +692,7 @@ em {
 }
 
 #mediahead {
+  display: none;
   margin-right: 20px;
   position: absolute;
   right: 0px;

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel ='stylesheet' href = "main.css">
-    <link rel = 'stylesheet' media = "screen and (min-width:)" href = "getabettermonitor.css"
+    <link rel ='stylesheet' media = "screen and (min-width: 0px)" href = "main.css">
+    <link rel = 'stylesheet' media = "screen and (min-width: 800px)" href = "getabettermonitor.css">
     <link rel ='stylesheet' href = "reset.css">
+    <link rel='stylesheet' href = "contactview.css"
     <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Bentham' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
@@ -17,24 +18,22 @@
     <script src="javascript/batman.js"></script>
     <script src="javascript/slide.js"></script>
     <script src="javascript/jquery.js"></script>
+    <script src="javascript/ronaldregan.js"
     <script type="text/javascript">
-    </script>
-    <script>
-      $(document).ready(function(){
-        $(".fade").fadeIn(3000);
-      });
-
     </script>
   </head>
   <body ng-app="aMod" ng-controller="aController">
-    <div id="nav" class="fade">
+    <div id="nav">
+      <video id="bgvideo" autoplay loop>
+        <source src="http://a.pomf.cat/iocslc.mp4" type="video/mp4"/>
+      </video>
+      <p id="welcome">7Links</p>
       <img id="logo" src="images/logo.png"/>
-      <p id="welcome" class="fade">This is some text</p>
     </div>
     <div id="buttons">
       <a href="#/" class="atag">HOME</a>
       <a href="#/aboutview" id="atag2" class="atag">ABOUT</a>
-      <a href="#" id="atag3" class="atag">CONTACT</a>
+      <a href="#/contactview" id="atag3" class="atag">CONTACT</a>
     </div>
     <div id="mediahead">
       <div id="twitter2"></div>
@@ -50,8 +49,8 @@
       <br>
       <div id="DIVUCEPTIONU">
         <div id="footnavdiv">
-          <a href="#" class="footnav">HOME</a>
-          <a href="#" class="footnav">ABOUT</a>
+          <a href="#/" class="footnav">HOME</a>
+          <a href="#/aboutview" class="footnav">ABOUT</a>
         </div>
         <div id="footnavdiv2">
           <a href="#" class="footnav">CONTACT</a>
@@ -65,7 +64,7 @@
         <div id="reddit"></div>
         <div id="skype"></div>
       </div>
-      <p id="email">eightpears@gmail.com</p>
+      <p id="emaill">eightpears@gmail.com</p>
       <p id="copyright">© 2016 Nick V. I made this site. Thanks for design inspo, airbnb.</p>
     </footer>
   </body>

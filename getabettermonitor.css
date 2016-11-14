@@ -1,0 +1,21 @@
+.viewbuttons {
+  border: 3px solid black;
+  display: inline-block;
+  color: black;
+  font-size: 18px;
+  background-color: rgba(255, 252, 255, 0.5);
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  margin-left: 52px;
+  margin-right: 52px;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 23px;
+  padding-right: 23px;
+  -o-transition:color .15s ease-out, background .15s ease-in;
+  -ms-transition:color .15s ease-out, background .15s ease-in;
+  -moz-transition:color .15s ease-out, background .15s ease-in;
+  -webkit-transition:color .15s ease-out, background .15s ease-in;
+}

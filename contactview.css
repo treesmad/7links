@@ -1,0 +1,107 @@
+#contactpage {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+#tactofo {
+  display: inline-block;
+  background-color: red;
+  height: auto;
+  width: 25%;
+  text-align: center;
+  margin-top: 100px;
+  overflow: auto;
+  font-family: Bentham;
+  font-size: 22px;
+}
+
+.tachead {
+  font-weight: bold;
+}
+
+#fname, #lname {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#email {
+    width: 235%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+}
+
+#message {
+    width: 202%;
+    height: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+}
+
+label {
+  font-family: Bentham;
+  font-size: 18px;
+}
+
+#tactimp {
+  display: inline-block;
+  background-color: pink;
+  height: 650px;
+  width: 35%;*
+  margin: 0 auto;
+  margin-top: 100px;
+  overflow: auto;
+}
+
+#contactme {
+  font-size: 19.5px;
+  font-family: Alegraya;
+}
+
+#tactimg {
+  text-align: center;
+}
+
+#tactweeg {
+  border: 10px solid black;
+  border-radius: 150px;
+  margin-top: 25px;
+}
+
+.viewbuttons2 {
+  border: 3px solid black;
+  display: inline-block;
+  color: black;
+  font-size: 18px;
+  background-color: rgba(255, 252, 255, 0.5);
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  margin-left: 72px;
+  margin-right: 72px;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 23px;
+  padding-right: 23px;
+  -o-transition:color .15s ease-out, background .15s ease-in;
+  -ms-transition:color .15s ease-out, background .15s ease-in;
+  -moz-transition:color .15s ease-out, background .15s ease-in;
+  -webkit-transition:color .15s ease-out, background .15s ease-in;
+}
