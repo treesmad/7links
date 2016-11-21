@@ -32,7 +32,7 @@
 }
 
 #email {
-    width: 235%;
+    width: 239%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -84,22 +84,21 @@ label {
   margin-top: 25px;
 }
 
-.viewbuttons2 {
+#sendbutton {
   border: 3px solid black;
   display: inline-block;
   color: black;
+  /*text-shadow: 1px 1px white;*/
   font-size: 18px;
   background-color: rgba(255, 252, 255, 0.5);
-  font-family: 'Bitter', serif;
-  font-weight: bold;
-  margin-left: 72px;
-  margin-right: 72px;
-  margin-top: 30px;
+  margin-left: 90px;
   border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 23px;
-  padding-right: 23px;
+  padding-left: 37px;
+  padding-right: 37px;
+  font-family: 'Bitter', serif;
+  font-weight: bold;
   -o-transition:color .15s ease-out, background .15s ease-in;
   -ms-transition:color .15s ease-out, background .15s ease-in;
   -moz-transition:color .15s ease-out, background .15s ease-in;
