@@ -7,7 +7,7 @@
 
 #tactofo {
   display: inline-block;
-  background-color: red;
+  /*background-color: red;*/
   height: auto;
   width: 25%;
   text-align: center;
@@ -15,6 +15,7 @@
   overflow: auto;
   font-family: Bentham;
   font-size: 22px;
+  margin-right: 150px;
 }
 
 .tachead {
@@ -61,7 +62,7 @@ label {
 
 #tactimp {
   display: inline-block;
-  background-color: pink;
+  /*background-color: pink;*/
   height: 650px;
   width: 35%;*
   margin: 0 auto;
@@ -82,25 +83,4 @@ label {
   border: 10px solid black;
   border-radius: 150px;
   margin-top: 25px;
-}
-
-#sendbutton {
-  border: 3px solid black;
-  display: inline-block;
-  color: black;
-  /*text-shadow: 1px 1px white;*/
-  font-size: 18px;
-  background-color: rgba(255, 252, 255, 0.5);
-  margin-left: 90px;
-  border-radius: 4px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 37px;
-  padding-right: 37px;
-  font-family: 'Bitter', serif;
-  font-weight: bold;
-  -o-transition:color .15s ease-out, background .15s ease-in;
-  -ms-transition:color .15s ease-out, background .15s ease-in;
-  -moz-transition:color .15s ease-out, background .15s ease-in;
-  -webkit-transition:color .15s ease-out, background .15s ease-in;
 }
