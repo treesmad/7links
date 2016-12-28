@@ -1,3 +1,52 @@
+.atag {
+  border: 3px solid black;
+  display: inline-block;
+  color: black;
+  /*text-shadow: 1px 1px white;*/
+  font-size: 18px;
+  background-color: rgba(255, 252, 255, 0.5);
+  margin-left: 63px;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 37px;
+  padding-right: 37px;
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  -o-transition:color .15s ease-out, background .15s ease-in;
+  -ms-transition:color .15s ease-out, background .15s ease-in;
+  -moz-transition:color .15s ease-out, background .15s ease-in;
+  -webkit-transition:color .15s ease-out, background .15s ease-in;
+}
+
+#twitter2 {
+display: none;
+}
+
+#github2 {
+display: none;
+}
+
+#facebook2 {
+display: none;
+}
+
+#reddit2 {
+display: none;
+}
+
+#skype2 {
+display: none;
+}
+
+
+#logo {
+  display: block;
+  height: 125px;
+  width: 125px;
+  margin: 0 auto;
+}
+
 .viewbuttons {
   border: 3px solid black;
   display: inline-block;
@@ -127,4 +176,22 @@
 #para3 {
   margin-left: 32.5px;
   margin-right: 32.5px;
+}
+
+.abouthr {
+  border: none;
+  width: 70%;
+  height: 5px;
+  color: #3D3D3D;
+  background-color: #3D3D3D;
+  margin-bottom: 0px;
+}
+
+#texthold {
+  display: inline-block;
+  width: 450px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  font-size: 19.5px;
+  font-family: bentham;
 }
